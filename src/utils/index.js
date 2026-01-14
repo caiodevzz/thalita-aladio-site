@@ -1,5 +1,13 @@
 // Utilitários para o site da Thalita Aládio
 
+// Função para gerar link do WhatsApp com mensagem
+export const getWhatsAppLink = (message = null) => {
+  const baseUrl = 'https://api.whatsapp.com/message/YBMRDHCQHPTWK1';
+  const defaultMessage = 'Olá! Gostaria de saber mais sobre a consultoria de gestão para psicólogos.';
+  const finalMessage = message || defaultMessage;
+  return `${baseUrl}?text=${encodeURIComponent(finalMessage)}&autoload=1&app_absent=0`;
+};
+
 // Função para gerar mensagem do WhatsApp
 export const generateWhatsAppMessage = (service, price) => {
   return `Olá! Tenho interesse no serviço *${service}* (${price}). Gostaria de saber mais detalhes.`;

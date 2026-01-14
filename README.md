@@ -73,3 +73,25 @@ src/
 - Combinação de Administração + Psicologia + Finanças
 - Linguagem acessível para profissionais da saúde mental
 - Capacidade de ensino e docência
+
+## 🚀 Deploy
+
+### Deploy Rápido na Vercel (Recomendado)
+
+1. Acesse [Vercel](https://vercel.com)
+2. Faça login com GitHub
+3. Importe o repositório `caiodevzz/thalita-aladio-site`
+4. Clique em "Deploy"
+5. Pronto! Seu site estará online em minutos
+
+### Deploy na Netlify
+
+1. Acesse [Netlify](https://netlify.com)
+2. Faça login com GitHub
+3. Importe o repositório
+4. Configure:
+   - Build command: `npm run build`
+   - Publish directory: `build`
+5. Clique em "Deploy site"
+
+**Ambas as plataformas fazem deploy automático a cada push no GitHub!**

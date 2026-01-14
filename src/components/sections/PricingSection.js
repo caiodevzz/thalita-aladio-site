@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CONTACT_INFO } from '../../constants';
+import { getWhatsAppLink } from '../../utils';
 import './PricingSection.css';
 
 const PricingSection = () => {
@@ -106,7 +106,7 @@ const PricingSection = () => {
                   ))}
                 </ul>
                 <a 
-                  href={CONTACT_INFO.whatsapp}
+                  href={getWhatsAppLink(plan.whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-pricing"

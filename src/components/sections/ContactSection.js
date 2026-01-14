@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CONTACT_INFO } from '../../constants';
+import { getWhatsAppLink } from '../../utils';
 import './ContactSection.css';
 
 const ContactSection = () => {
@@ -21,7 +22,7 @@ const ContactSection = () => {
           
           <div className="contact-buttons">
             <a 
-              href={CONTACT_INFO.whatsapp}
+              href={getWhatsAppLink('Olá! Gostaria de saber mais sobre a consultoria de gestão para psicólogos.')}
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-primary"

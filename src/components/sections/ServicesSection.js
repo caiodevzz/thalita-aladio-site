@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SERVICES, CONTACT_INFO } from '../../constants';
+import { SERVICES } from '../../constants';
+import { generateWhatsAppMessage, getWhatsAppLink } from '../../utils';
 import './ServicesSection.css';
 
 const ServicesSection = () => {
@@ -50,7 +51,7 @@ const ServicesSection = () => {
                   ))}
                 </ul>
                 <a 
-                  href={CONTACT_INFO.whatsapp}
+                  href={getWhatsAppLink(generateWhatsAppMessage(service.title, service.price))}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-service"
