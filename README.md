@@ -1,97 +1,13 @@
-# Site da Thalita Aládio - Gestão Humanizada para Psicólogos
 
-Site React moderno focado na consultoria especializada em gestão de consultórios psicológicos.
 
-## 🚀 Como executar o projeto
+Descrição do projeto
 
-### Pré-requisitos
-- Node.js (versão 16 ou superior)
-- npm ou yarn
+Este projeto consiste em um site institucional profissional desenvolvido para Thalita Aládio – Gestão Humanizada para Psicólogos, com o objetivo de apresentar de forma clara, moderna e acessível os serviços oferecidos, a identidade profissional, os diferenciais da consultoria e os canais de contato.
 
-### Instalação
-```bash
-# Instalar dependências
-npm install
+A aplicação foi construída utilizando React, adotando uma arquitetura baseada em componentes reutilizáveis, o que garante melhor organização do código, manutenção facilitada e escalabilidade do projeto. A interface foi pensada para oferecer uma experiência de usuário intuitiva, com navegação fluida entre seções e foco na clareza das informações apresentadas.
 
-# Executar em modo de desenvolvimento
-npm start
+O site conta com layout responsivo, adaptando-se corretamente a diferentes tamanhos de tela (desktop, tablet e dispositivos móveis), seguindo boas práticas de desenvolvimento front-end e design web. Foram aplicados conceitos de organização visual, hierarquia de informação e padronização de estilos para manter um aspecto profissional e consistente.
 
-# Build para produção
-npm run build
-```
+Além da apresentação institucional, o projeto inclui seções informativas, conteúdo multimídia (como imagens e vídeos) e elementos de contato, permitindo que potenciais clientes compreendam rapidamente a proposta da consultoria e entrem em comunicação de forma simples.
 
-## 📁 Estrutura do Projeto
-
-```
-src/
-├── components/          # Componentes React
-│   ├── Header.js       # Cabeçalho com navegação
-│   ├── Hero.js         # Seção principal
-│   ├── ProblemSection.js # Seção de problemas
-│   ├── AboutSection.js # Seção sobre a Thalita
-│   ├── ServicesSection.js # Seção de serviços
-│   ├── TestimonialsSection.js # Depoimentos
-│   ├── PricingSection.js # Preços e planos
-│   ├── ContactSection.js # Contato
-│   └── Footer.js       # Rodapé
-├── App.js              # Componente principal
-├── App.css             # Estilos globais
-├── index.js            # Ponto de entrada
-└── index.css           # Reset e variáveis CSS
-```
-
-## 🎨 Características
-
-- **Design Moderno**: Interface limpa e profissional
-- **Responsivo**: Adaptável para todos os dispositivos
-- **Animações**: Transições suaves com Framer Motion
-- **Foco em Conversão**: Call-to-actions estratégicos
-- **Específico para Psicólogos**: Conteúdo direcionado ao público-alvo
-
-## 📋 Serviços Oferecidos
-
-1. **Consultoria Individual** - R$ 400/mês
-2. **Gestão Mensal de Consultório** - R$ 300/mês  
-3. **Mentoria em Grupo** - R$ 150/participante
-
-## 🎯 Público-Alvo
-
-- Psicólogos recém-formados ou autônomos
-- Clínicas pequenas ou consultórios compartilhados
-- Estudantes de Psicologia em transição
-- Profissionais com dificuldade em precificação e divulgação
-
-## 📞 Contato
-
-- WhatsApp: (11) 99999-9999
-- Email: contato@thalitaaladio.com
-- Instagram: @aladiothalita
-
-## 🌟 Diferenciais
-
-- Abordagem humanista: gestão com empatia e propósito
-- Combinação de Administração + Psicologia + Finanças
-- Linguagem acessível para profissionais da saúde mental
-- Capacidade de ensino e docência
-
-## 🚀 Deploy
-
-### Deploy Rápido na Vercel (Recomendado)
-
-1. Acesse [Vercel](https://vercel.com)
-2. Faça login com GitHub
-3. Importe o repositório `caiodevzz/thalita-aladio-site`
-4. Clique em "Deploy"
-5. Pronto! Seu site estará online em minutos
-
-### Deploy na Netlify
-
-1. Acesse [Netlify](https://netlify.com)
-2. Faça login com GitHub
-3. Importe o repositório
-4. Configure:
-   - Build command: `npm run build`
-   - Publish directory: `build`
-5. Clique em "Deploy site"
-
-**Ambas as plataformas fazem deploy automático a cada push no GitHub!**
+O deploy da aplicação foi realizado na Vercel, utilizando integração contínua com o repositório Git, o que possibilita atualizações automáticas a cada novo commit na branch principal. O projeto serve tanto como produto real em produção quanto como exemplo de portfólio, demonstrando habilidades em React, organização de código, versionamento com Git e publicação de aplicações web modernas.
