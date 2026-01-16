@@ -1,21 +1,37 @@
+import heroImg from '../assets/images/_7502945.jpg';
+import headerImg from '../assets/images/_7502926.jpg';
+import aboutImg from '../assets/images/_7502933.jpg';
+import galleryImg1 from '../assets/images/_7502918.jpg';
+import galleryImg2 from '../assets/images/_7502926.jpg';
+import galleryImg3 from '../assets/images/_7502927.jpg';
+import galleryImg4 from '../assets/images/_7502933.jpg';
+import galleryImg5 from '../assets/images/_7502936.jpg';
+import galleryImg6 from '../assets/images/_7502945.jpg';
+import galleryImg7 from '../assets/images/_7502953.jpg';
+import galleryImg8 from '../assets/images/_7502955.jpg';
+import galleryImg9 from '../assets/images/_7502971.jpg';
+import galleryImg10 from '../assets/images/_7502977.jpg';
+import galleryImg11 from '../assets/images/_7502978.jpg';
+import galleryImg12 from '../assets/images/_7502986.jpg';
+
 // Imagens da Thalita Aládio
 export const THALITA_PHOTOS = {
-  hero: '/images/_7502945.jpg',
-  header: '/images/_7502926.jpg',
-  about: '/images/_7502933.jpg',
+  hero: heroImg,
+  header: headerImg,
+  about: aboutImg,
   gallery: [
-    '/images/_7502918.jpg',
-    '/images/_7502926.jpg',
-    '/images/_7502927.jpg',
-    '/images/_7502933.jpg',
-    '/images/_7502936.jpg',
-    '/images/_7502945.jpg',
-    '/images/_7502953.jpg',
-    '/images/_7502955.jpg',
-    '/images/_7502971.jpg',
-    '/images/_7502977.jpg',
-    '/images/_7502978.jpg',
-    '/images/_7502986.jpg'
+    galleryImg1,
+    galleryImg2,
+    galleryImg3,
+    galleryImg4,
+    galleryImg5,
+    galleryImg6,
+    galleryImg7,
+    galleryImg8,
+    galleryImg9,
+    galleryImg10,
+    galleryImg11,
+    galleryImg12
   ]
 };
 
@@ -103,7 +119,7 @@ export const TESTIMONIALS = [
 
 // Contato
 export const CONTACT_INFO = {
-  whatsapp: 'https://api.whatsapp.com/message/YBMRDHCQHPTWK1?autoload=1&app_absent=0',
+  whatsapp: 'https://wa.me/message/YBMRDHCQHPTWK1',
   email: 'contato@thalitaaladio.com',
   instagram: 'https://www.instagram.com/aladiothalita/',
   youtube: 'https://www.youtube.com/@thalitaaladio2825',
