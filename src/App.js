@@ -7,7 +7,6 @@ import VideoSection from './components/sections/VideoSection';
 import GallerySection from './components/sections/GallerySection';
 import ServicesSection from './components/sections/ServicesSection';
 import TestimonialsSection from './components/sections/TestimonialsSection';
-import PricingSection from './components/sections/PricingSection';
 import ContactSection from './components/sections/ContactSection';
 import Footer from './components/ui/Footer';
 import './App.css';
@@ -23,7 +22,6 @@ function App() {
       <GallerySection />
       <ServicesSection />
       <TestimonialsSection />
-      <PricingSection />
       <ContactSection />
       <Footer />
     </div>
