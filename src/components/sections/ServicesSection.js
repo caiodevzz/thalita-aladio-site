@@ -63,7 +63,9 @@ const ServicesSection = () => {
                   rel="noopener noreferrer"
                   className="btn-service"
                 >
-                  <i className="fab fa-whatsapp"></i> Agende agora: {CONTACT_INFO.phone}
+                  <i className="fab fa-whatsapp"></i>
+                  <span className="btn-text-desktop">Agende agora: {CONTACT_INFO.phone}</span>
+                  <span className="btn-text-mobile">Agendar no WhatsApp</span>
                 </a>
               </div>
 

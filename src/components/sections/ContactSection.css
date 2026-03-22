@@ -46,14 +46,45 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
+  .contact-section {
+    padding: 3rem 0;
+  }
+  
+  .contact-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .contact-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  
   .contact-buttons {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-buttons a {
+    justify-content: center;
+    min-height: 48px;
   }
   
   .contact-info {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2rem 0;
+  }
+  
+  .contact-buttons a {
+    font-size: 0.9rem;
+    padding: 0.875rem 1rem;
   }
 }

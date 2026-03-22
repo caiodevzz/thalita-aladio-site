@@ -12,7 +12,7 @@
 
 .problem-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
 }
@@ -79,11 +79,44 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
+  .problem-section {
+    padding: 3rem 0;
+  }
+  
+  .problem-section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  
   .problem-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   
   .problem-card {
     padding: 1.5rem;
+  }
+  
+  .problem-conclusion {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .problem-section {
+    padding: 2rem 0;
+  }
+  
+  .problem-card {
+    padding: 1.25rem;
+  }
+  
+  .problem-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .problem-icon i {
+    font-size: 1.5rem;
   }
 }

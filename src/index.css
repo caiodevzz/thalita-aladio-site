@@ -7,6 +7,8 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Paleta de Cores - Tons premium (charcoal, bege quente, ouro metálico, navy) */
@@ -75,6 +78,11 @@ p {
   color: var(--text-light);
   font-size: 1rem;
   line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Texto em fundos claros (bege) */
@@ -153,6 +161,7 @@ section {
   .btn-primary, .btn-secondary {
     padding: 0.875rem 1.5rem;
     font-size: 0.9rem;
+    min-height: 44px;
   }
 }
 
@@ -163,5 +172,17 @@ section {
   
   section {
     padding: 2rem 0;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Telas muito pequenas (ex: iPhone SE) */
+@media (max-width: 375px) {
+  .container {
+    padding: 0 0.75rem;
   }
 }

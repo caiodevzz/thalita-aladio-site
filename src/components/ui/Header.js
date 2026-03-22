@@ -51,11 +51,11 @@ const Header = () => {
         </div>
         
         <nav className={`main-nav ${isMobileMenuOpen ? 'active' : ''}`}>
-          <a href="#sobre">Sobre</a>
-          <a href="#galeria">Galeria</a>
-          <a href="#servicos">Nossos Serviços</a>
-          <a href="#depoimentos">Depoimentos</a>
-          <a href="#contato" className="btn-nav">Agendar Consultoria</a>
+          <a href="#sobre" onClick={() => setIsMobileMenuOpen(false)}>Sobre</a>
+          <a href="#galeria" onClick={() => setIsMobileMenuOpen(false)}>Galeria</a>
+          <a href="#servicos" onClick={() => setIsMobileMenuOpen(false)}>Nossos Serviços</a>
+          <a href="#depoimentos" onClick={() => setIsMobileMenuOpen(false)}>Depoimentos</a>
+          <a href="#contato" className="btn-nav" onClick={() => setIsMobileMenuOpen(false)}>Agendar Consultoria</a>
         </nav>
         
         <button 

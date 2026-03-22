@@ -179,6 +179,11 @@
   font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s ease;
+  min-height: 48px;
+}
+
+.btn-text-mobile {
+  display: none;
 }
 
 .btn-service:hover {
@@ -236,8 +241,21 @@
 }
 
 @media (max-width: 480px) {
+  .services-section {
+    padding: 2rem 0;
+  }
+  
+  .services-section .services-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .services-grid {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .service-image {
-    min-height: 250px;
+    min-height: 220px;
   }
 
   .service-content {
@@ -245,11 +263,41 @@
   }
 
   .service-header h3 {
+    font-size: 1.2rem;
+  }
+  
+  .service-features li {
+    font-size: 0.9rem;
+  }
+  
+  .price-value {
     font-size: 1.25rem;
   }
 
+  .btn-text-desktop {
+    display: none;
+  }
+  
+  .btn-text-mobile {
+    display: inline;
+  }
+
   .btn-service {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     padding: 0.875rem 1rem;
+  }
+  
+  .services-conclusion {
+    padding: 1.5rem;
+  }
+  
+  .services-conclusion .cta-text {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .service-image {
+    min-height: 200px;
   }
 }
