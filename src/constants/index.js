@@ -1,6 +1,9 @@
 import heroImg from '../assets/images/_7502945.jpg';
 import headerIcon from '../icon/635713062_1217593186799053_6726065486971934416_n.jpg';
 import aboutImg from '../assets/images/_7502933.jpg';
+import serviceImg1 from '../assets/images/services/atendimento-psicologos.png';
+import serviceImg2 from '../assets/images/services/arquitetura-financeira.png';
+import serviceImg3 from '../assets/images/services/atendimento-casal.png';
 import galleryImg1 from '../assets/images/_7502918.jpg';
 import galleryImg2 from '../assets/images/_7502926.jpg';
 import galleryImg3 from '../assets/images/_7502927.jpg';
@@ -51,49 +54,49 @@ export const THALITA_INFO = {
 // Serviços oferecidos
 export const SERVICES = [
   {
-    id: 'consultoria-individual',
+    id: 'atendimento-psicologos',
+    image: serviceImg1,
     icon: 'fas fa-user-md',
-    title: 'Consultoria Individual',
-    description: 'Encontros quinzenais para organizar finanças, precificação e marketing do consultório.',
-    price: 'R$ 400/mês',
+    title: 'Atendimento para Psicólogos',
+    description: 'Construa uma vida financeira organizada e sustentável na sua prática clínica.',
+    price: '12x R$ 299,00',
+    priceNote: 'por 1 ano de acompanhamento',
     features: [
-      'Diagnóstico financeiro completo',
-      'Plano de precificação personalizado',
-      'Estratégias de marketing ético',
-      'Acompanhamento quinzenal',
-      'Material de apoio exclusivo',
-      'Suporte por WhatsApp'
+      'Organização financeira do consultório e da vida pessoal',
+      'Estruturação de preços e honorários sustentáveis',
+      'Planejamento financeiro para profissionais da psicologia',
+      'Estratégias para crescer com segurança financeira'
     ]
   },
   {
-    id: 'gestao-mensal',
-    icon: 'fas fa-clinic-medical',
-    title: 'Gestão Mensal de Consultório',
-    description: 'Acompanhamento completo: controle financeiro, agendamento, divulgação e suporte de gestão.',
-    price: 'R$ 300/mês',
+    id: 'arquitetura-financeira',
+    image: serviceImg2,
+    icon: 'fas fa-chart-line',
+    title: 'Arquitetura Financeira',
+    subtitle: 'Consultoria Individual',
+    description: 'Planejamento financeiro integrado com seus objetivos de vida.',
+    price: '12x R$ 299,00',
     features: [
-      'Controle financeiro completo',
-      'Sistema de agendamento',
-      'Estratégias de divulgação',
-      'Suporte de gestão contínuo',
-      'Relatórios mensais',
-      'Consultoria mensal incluída'
+      'Planejamento financeiro integrado com objetivos de vida',
+      'Estruturação de investimentos',
+      'Desenvolvimento da autonomia financeira',
+      'Integração com práticas de consciência emocional',
+      'Acompanhamento personalizado'
     ],
     popular: true
   },
   {
-    id: 'mentoria-grupo',
-    icon: 'fas fa-users',
-    title: 'Mentoria em Grupo',
-    description: 'Encontros mensais sobre precificação, rotina e organização para psicólogos.',
-    price: 'R$ 150/participante',
+    id: 'atendimento-casal',
+    image: serviceImg3,
+    icon: 'fas fa-heart',
+    title: 'Atendimento de Casal',
+    description: 'Transformem juntos uma vida financeira saudável e alinhada.',
+    price: 'R$ 399,00',
     features: [
-      'Encontros mensais online',
-      'Temas específicos por sessão',
-      'Troca de experiências',
-      'Material didático',
-      'Grupo de apoio',
-      'Acesso à comunidade'
+      'Planejamento financeiro para o casal',
+      'Organização e metas compartilhadas',
+      'Diálogo sobre dinheiro sem conflitos',
+      'Estratégias para prosperar juntos'
     ]
   }
 ];
@@ -119,10 +122,11 @@ export const TESTIMONIALS = [
 
 // Contato
 export const CONTACT_INFO = {
-  whatsapp: 'https://wa.me/message/YBMRDHCQHPTWK1',
+  whatsapp: 'https://wa.me/5564999637532',
+  phone: '(64) 99963-7532',
   email: 'contato@thalitaaladio.com',
   instagram: 'https://www.instagram.com/aladiothalita/',
   youtube: 'https://www.youtube.com/@thalitaaladio2825',
   schedule: 'Segunda a sexta, 9h às 18h',
-  location: 'Atendimento online para todo o Brasil'
+  location: 'Itumbiara – GO'
 };

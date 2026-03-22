@@ -3,8 +3,12 @@
 import { CONTACT_INFO } from '../constants';
 
 // Função para gerar link do WhatsApp (curto e compatível com celular)
-export const getWhatsAppLink = () => {
-  return CONTACT_INFO.whatsapp;
+export const getWhatsAppLink = (message = '') => {
+  const baseUrl = CONTACT_INFO.whatsapp;
+  if (message) {
+    return `${baseUrl}?text=${encodeURIComponent(message)}`;
+  }
+  return baseUrl;
 };
 
 // Função para gerar mensagem do WhatsApp
