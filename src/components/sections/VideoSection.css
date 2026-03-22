@@ -1,7 +1,7 @@
 /* VideoSection.css */
 .video-section {
   padding: 4rem 0;
-  background: white;
+  background: var(--bg-dark);
 }
 
 .video-content {
@@ -10,7 +10,7 @@
 
 .video-content h2 {
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: var(--accent);
 }
 
 .video-description {

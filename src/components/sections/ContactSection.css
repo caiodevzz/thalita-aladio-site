@@ -1,7 +1,7 @@
 /* ContactSection.css */
 .contact-section {
   padding: 4rem 0;
-  background: white;
+  background: var(--secondary);
   text-align: center;
 }
 
@@ -12,7 +12,8 @@
 
 .contact-content p {
   margin-bottom: 2rem;
-  color: var(--text-light);
+  color: var(--text-dark);
+  opacity: 0.9;
   font-size: 1.125rem;
 }
 
@@ -35,11 +36,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .info-item i {
-  color: var(--primary);
+  color: var(--accent);
   font-size: 1.25rem;
 }
 

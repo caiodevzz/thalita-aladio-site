@@ -1,7 +1,7 @@
 /* GallerySection.css */
 .gallery-section {
   padding: 4rem 0;
-  background: var(--secondary);
+  background: var(--bg-dark);
 }
 
 .gallery-header {
@@ -11,7 +11,7 @@
 
 .gallery-header h2 {
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: var(--accent);
 }
 
 .gallery-header p {

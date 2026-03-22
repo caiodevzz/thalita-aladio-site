@@ -11,8 +11,8 @@ html {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: #ffffff;
-  color: #1a1a1a;
+  background: #2B2522;
+  color: #EAE7E2;
   line-height: 1.6;
   overflow-x: hidden;
   font-feature-settings: 'kern' 1, 'liga' 1;
@@ -21,22 +21,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Paleta de Cores */
+/* Paleta de Cores - Tons premium (charcoal, bege quente, ouro metálico, navy) */
 :root {
-  --primary: #0f2b5b;
-  --primary-dark: #0a1e41;
-  --primary-light: #2a4a86;
-  --secondary: #f4f6fb;
-  --accent: #b8995a;
+  --primary: #1E2A4E;
+  --primary-dark: #15203a;
+  --primary-light: #243156;
+  --secondary: #B69C89;
+  --accent: #C5A070;
+  --accent-light: #E8D4B9;
+  --accent-dark: #8E6D4B;
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
-  --text-dark: #1e293b;
-  --text-light: #64748b;
-  --text-muted: #94a3b8;
-  --bg-light: #f8fafc;
-  --bg-dark: #0f172a;
-  --border: #e2e8f0;
+  --text-dark: #2B2522;
+  --text-light: #EAE7E2;
+  --text-muted: #B69C89;
+  --bg-light: #B69C89;
+  --bg-dark: #2B2522;
+  --border: rgba(182, 156, 137, 0.3);
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
@@ -53,7 +55,7 @@ body {
 /* Tipografia */
 h1, h2, h3, h4 {
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--accent);
   line-height: 1.2;
 }
 
@@ -73,6 +75,16 @@ p {
   color: var(--text-light);
   font-size: 1rem;
   line-height: 1.7;
+}
+
+/* Texto em fundos claros (bege) */
+.on-light-bg h1, .on-light-bg h2, .on-light-bg h3, .on-light-bg h4 {
+  color: var(--text-dark);
+}
+
+.on-light-bg p {
+  color: var(--text-dark);
+  opacity: 0.9;
 }
 
 /* Container */
@@ -100,25 +112,26 @@ p {
 
 .btn-primary {
   background: var(--primary);
-  color: white;
+  color: #F5F5F5;
   box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
   background: var(--primary-dark);
+  color: #F5F5F5;
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 
 .btn-secondary {
   background: transparent;
-  color: var(--primary);
-  border: 2px solid var(--primary);
+  color: var(--accent);
+  border: 2px solid var(--accent);
 }
 
 .btn-secondary:hover {
-  background: var(--primary);
-  color: white;
+  background: var(--accent);
+  color: var(--text-dark);
   transform: translateY(-2px);
 }
 

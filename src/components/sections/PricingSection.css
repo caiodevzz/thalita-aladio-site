@@ -1,7 +1,7 @@
 /* PricingSection.css */
 .pricing-section {
   padding: 4rem 0;
-  background: var(--secondary);
+  background: var(--bg-dark);
 }
 
 .pricing-header {
@@ -11,10 +11,10 @@
 
 .pricing-header h2 {
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: var(--accent);
 }
 
-.section-subtitle {
+.pricing-section .section-subtitle {
   font-size: 1.125rem;
   color: var(--text-light);
   max-width: 600px;
@@ -29,7 +29,8 @@
 }
 
 .pricing-card {
-  background: white;
+  background: rgba(182, 156, 137, 0.15);
+  border: 1px solid rgba(182, 156, 137, 0.2);
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-md);
@@ -41,11 +42,12 @@
 .pricing-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-xl);
+  border-color: rgba(197, 160, 112, 0.4);
 }
 
 .pricing-card.featured {
   transform: scale(1.05);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--accent);
 }
 
 .popular-badge {
@@ -53,7 +55,7 @@
   top: 1rem;
   right: 1rem;
   background: var(--primary);
-  color: white;
+  color: #F5F5F5;
   padding: 0.5rem 1rem;
   border-radius: var(--radius-md);
   font-size: 0.875rem;
@@ -62,14 +64,14 @@
 }
 
 .pricing-header-card {
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
+  background: linear-gradient(135deg, var(--primary), var(--accent-dark));
+  color: #F5F5F5;
   padding: 2rem;
   text-align: center;
 }
 
 .pricing-header-card h3 {
-  color: white;
+  color: #F5F5F5;
   margin-bottom: 1rem;
 }
 
@@ -83,12 +85,12 @@
 .price {
   font-size: 2.5rem;
   font-weight: 800;
-  color: white;
+  color: var(--accent-light);
 }
 
 .period {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(245, 245, 245, 0.8);
 }
 
 .pricing-body {
@@ -114,7 +116,7 @@
 }
 
 .pricing-body li i {
-  color: var(--success);
+  color: var(--accent);
   font-size: 0.875rem;
 }
 
@@ -126,7 +128,7 @@
   width: 100%;
   padding: 1rem;
   background: var(--primary);
-  color: white;
+  color: #F5F5F5;
   text-decoration: none;
   border-radius: var(--radius-md);
   font-weight: 600;
@@ -135,13 +137,15 @@
 
 .btn-pricing:hover {
   background: var(--primary-dark);
+  color: #F5F5F5;
   transform: translateY(-2px);
 }
 
 .pricing-guarantee {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: rgba(182, 156, 137, 0.15);
+  border: 1px solid rgba(182, 156, 137, 0.2);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }
@@ -155,11 +159,11 @@
 
 .guarantee-content i {
   font-size: 3rem;
-  color: var(--success);
+  color: var(--accent);
 }
 
 .guarantee-content h3 {
-  color: var(--text-dark);
+  color: var(--accent);
   margin-bottom: 0.5rem;
 }
 

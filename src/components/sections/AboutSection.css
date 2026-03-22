@@ -1,7 +1,7 @@
 /* AboutSection.css */
 .about-section {
   padding: 4rem 0;
-  background: white;
+  background: var(--secondary);
 }
 
 .about-content {
@@ -35,7 +35,8 @@
 
 .about-text p {
   margin-bottom: 1rem;
-  color: var(--text-light);
+  color: var(--text-dark);
+  opacity: 0.9;
 }
 
 .credentials {
@@ -50,14 +51,14 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
-  background: var(--secondary);
+  background: rgba(43, 37, 34, 0.15);
   border-radius: var(--radius-md);
   font-weight: 600;
   color: var(--text-dark);
 }
 
 .credential-item i {
-  color: var(--primary);
+  color: var(--accent);
   font-size: 1.25rem;
 }
 

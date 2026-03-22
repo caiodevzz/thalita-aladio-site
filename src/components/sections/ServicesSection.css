@@ -1,20 +1,20 @@
 /* ServicesSection.css */
 .services-section {
   padding: 4rem 0;
-  background: var(--secondary);
+  background: var(--bg-dark);
 }
 
-.services-header {
+.services-section .services-header {
   text-align: center;
   margin-bottom: 3rem;
 }
 
-.services-header h2 {
+.services-section .services-header h2 {
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: var(--accent);
 }
 
-.section-subtitle {
+.services-section .section-subtitle {
   font-size: 1.125rem;
   color: var(--text-light);
   max-width: 600px;
@@ -29,7 +29,8 @@
 }
 
 .service-card {
-  background: white;
+  background: rgba(182, 156, 137, 0.15);
+  border: 1px solid rgba(182, 156, 137, 0.2);
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-md);
@@ -40,11 +41,12 @@
 .service-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-xl);
+  border-color: rgba(197, 160, 112, 0.4);
 }
 
 .service-header {
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
+  background: linear-gradient(135deg, var(--primary), var(--accent-dark));
+  color: #F5F5F5;
   padding: 2rem;
   text-align: center;
 }
@@ -62,18 +64,18 @@
 
 .service-icon i {
   font-size: 2rem;
-  color: white;
+  color: var(--accent-light);
 }
 
 .service-header h3 {
-  color: white;
+  color: #F5F5F5;
   margin-bottom: 1rem;
 }
 
 .service-price {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: var(--accent-light);
 }
 
 .service-body {
@@ -99,7 +101,7 @@
 }
 
 .service-body li i {
-  color: var(--success);
+  color: var(--accent);
   font-size: 0.875rem;
 }
 
@@ -111,7 +113,7 @@
   width: 100%;
   padding: 1rem;
   background: var(--primary);
-  color: white;
+  color: #F5F5F5;
   text-decoration: none;
   border-radius: var(--radius-md);
   font-weight: 600;
@@ -120,25 +122,28 @@
 
 .btn-service:hover {
   background: var(--primary-dark);
+  color: #F5F5F5;
   transform: translateY(-2px);
 }
 
 .services-conclusion {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: rgba(182, 156, 137, 0.15);
+  border: 1px solid rgba(182, 156, 137, 0.2);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }
 
 .services-conclusion p {
   margin-bottom: 1rem;
+  color: var(--text-light);
 }
 
-.cta-text {
+.services-conclusion .cta-text {
   font-size: 1.25rem !important;
   font-weight: 700 !important;
-  color: var(--primary) !important;
+  color: var(--accent) !important;
 }
 
 /* Responsividade */
