@@ -1,7 +1,7 @@
 /* Hero.css */
 .hero {
   padding: 8rem 0 4rem;
-  background: linear-gradient(135deg, #fdfaf5 0%, #f3ede4 100%);
+  background: linear-gradient(135deg, #2d241e 0%, #1c1512 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
