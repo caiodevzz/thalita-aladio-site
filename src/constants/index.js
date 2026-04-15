@@ -15,9 +15,9 @@ import galleryImg11 from '../assets/images/_7502978.jpg';
 import galleryImg12 from '../assets/images/_7502986.jpg';
 
 // Flyers de Programas
-// import flyerCasal from '../assets/images/flyer-casal.jpg';
-// import flyerPsicologos from '../assets/images/flyer-psicologos.jpg';
-// import flyerIndividual from '../assets/images/flyer-individual.jpg';
+import flyerCasal from '../assets/images/flyer-casal.jpg';
+import flyerPsicologos from '../assets/images/flyer-psicologos.jpg';
+import flyerIndividual from '../assets/images/flyer-individual.jpg';
 
 // Imagens da Thalita Aládio
 export const THALITA_PHOTOS = {
@@ -39,9 +39,9 @@ export const THALITA_PHOTOS = {
     galleryImg12
   ],
   flyers: {
-    casal: aboutImg, // Usando aboutImg como placeholder temporário
-    psicologos: aboutImg,
-    individual: aboutImg
+    casal: flyerCasal,
+    psicologos: flyerPsicologos,
+    individual: flyerIndividual
   }
 };
 
