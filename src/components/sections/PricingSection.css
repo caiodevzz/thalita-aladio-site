@@ -1,7 +1,7 @@
 /* PricingSection.css */
 .pricing-section {
-  padding: 4rem 0;
-  background: var(--secondary);
+  padding: 5rem 0;
+  background-color: var(--background-secondary);
 }
 
 .pricing-header {
@@ -29,7 +29,7 @@
 }
 
 .pricing-card {
-  background: white;
+  background: var(--background-site);
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-md);
@@ -141,7 +141,7 @@
 .pricing-guarantee {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: var(--background-site);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }

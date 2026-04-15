@@ -1,7 +1,7 @@
 /* ProblemSection.css */
 .problem-section {
   padding: 4rem 0;
-  background: white;
+  background: var(--background-site);
 }
 
 .problem-section h2 {
@@ -21,7 +21,7 @@
   text-align: center;
   padding: 2rem;
   border-radius: var(--radius-lg);
-  background: var(--secondary);
+  background: var(--background-secondary);
   transition: transform 0.3s ease;
   cursor: pointer;
 }

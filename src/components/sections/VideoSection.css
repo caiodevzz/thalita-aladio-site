@@ -1,7 +1,7 @@
 /* VideoSection.css */
 .video-section {
-  padding: 4rem 0;
-  background: white;
+  padding: 5rem 0;
+  background-color: var(--background-secondary);
 }
 
 .video-content {

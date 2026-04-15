@@ -1,7 +1,7 @@
 /* ServicesSection.css */
 .services-section {
-  padding: 4rem 0;
-  background: var(--secondary);
+  padding: 5rem 0;
+  background-color: var(--background-site);
 }
 
 .services-header {
@@ -29,12 +29,15 @@
 }
 
 .service-card {
-  background: white;
+  background: var(--background-secondary);
+  padding: 2.5rem;
   border-radius: var(--radius-xl);
-  overflow: hidden;
   box-shadow: var(--shadow-md);
-  transition: transform 0.3s ease;
-  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--border);
 }
 
 .service-card:hover {
@@ -126,7 +129,7 @@
 .services-conclusion {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: var(--background-secondary);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }
