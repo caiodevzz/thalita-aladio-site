@@ -13,6 +13,7 @@ import ContactSection from './components/sections/ContactSection';
 import Footer from './components/ui/Footer';
 import './App.css';
 
+// Deployment trigger - theme: dark-brown
 function App() {
   return (
     <div className="App">
