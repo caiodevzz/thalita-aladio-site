@@ -33,8 +33,8 @@ const ServicesSection = () => {
               whileHover={{ y: -5 }}
             >
               <div className="service-header">
-                <div className="service-icon">
-                  <i className={service.icon}></i>
+                <div className="service-image-container">
+                  <img src={service.image} alt={service.title} className="service-flyer-img" />
                 </div>
                 <h3>{service.title}</h3>
                 <div className="service-price">{service.price}</div>

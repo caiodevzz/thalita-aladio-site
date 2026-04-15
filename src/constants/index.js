@@ -61,49 +61,47 @@ export const THALITA_INFO = {
 // Serviços oferecidos
 export const SERVICES = [
   {
-    id: 'consultoria-individual',
-    icon: 'fas fa-user-md',
-    title: 'Consultoria Individual',
-    description: 'Encontros quinzenais para organizar finanças, precificação e marketing do consultório.',
-    price: 'R$ 400/mês',
+    id: 'atendimento-casal',
+    icon: 'fas fa-heart',
+    title: 'Atendimento de Casal',
+    description: 'Transformem juntos uma vida financeira saudável e alinhada.',
+    price: 'R$ 399,00',
+    image: THALITA_PHOTOS.flyers.casal,
     features: [
-      'Diagnóstico financeiro completo',
-      'Plano de precificação personalizado',
-      'Estratégias de marketing ético',
-      'Acompanhamento quinzenal',
-      'Material de apoio exclusivo',
-      'Suporte por WhatsApp'
+      'Planejamento financeiro para o casal',
+      'Organização e metas compartilhadas',
+      'Diálogo sobre dinheiro sem conflitos',
+      'Estratégias para prosperar juntos'
     ]
   },
   {
-    id: 'gestao-mensal',
-    icon: 'fas fa-clinic-medical',
-    title: 'Gestão Mensal de Consultório',
-    description: 'Acompanhamento completo: controle financeiro, agendamento, divulgação e suporte de gestão.',
-    price: 'R$ 300/mês',
+    id: 'atendimento-psicologos',
+    icon: 'fas fa-brain',
+    title: 'Atendimento para Psicólogos',
+    description: 'Construa uma vida financeira organizada e sustentável na sua prática clínica.',
+    price: '12x R$ 299,00',
+    image: THALITA_PHOTOS.flyers.psicologos,
+    popular: true,
     features: [
-      'Controle financeiro completo',
-      'Sistema de agendamento',
-      'Estratégias de divulgação',
-      'Suporte de gestão contínuo',
-      'Relatórios mensais',
-      'Consultoria mensal incluída'
-    ],
-    popular: true
+      'Organização financeira do consultório e da vida pessoal',
+      'Estruturação de preços e honorários sustentáveis',
+      'Planejamento financeiro para profissionais da psicologia',
+      'Estratégias para crescer com segurança financeira'
+    ]
   },
   {
-    id: 'mentoria-grupo',
-    icon: 'fas fa-users',
-    title: 'Mentoria em Grupo',
-    description: 'Encontros mensais sobre precificação, rotina e organização para psicólogos.',
-    price: 'R$ 150/participante',
+    id: 'arquitetura-financeira',
+    icon: 'fas fa-vault',
+    title: 'Arquitetura Financeira',
+    description: 'Consultoria Individual personalizada.',
+    price: '12x R$ 299',
+    image: THALITA_PHOTOS.flyers.individual,
     features: [
-      'Encontros mensais online',
-      'Temas específicos por sessão',
-      'Troca de experiências',
-      'Material didático',
-      'Grupo de apoio',
-      'Acesso à comunidade'
+      'Planejamento financeiro integrado com objetivos de vida',
+      'Estruturação de investimentos',
+      'Desenvolvimento da autonomia financeira',
+      'Integração com práticas de consciência emocional',
+      'Acompanhamento personalizado'
     ]
   }
 ];

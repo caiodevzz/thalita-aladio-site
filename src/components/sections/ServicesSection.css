@@ -30,7 +30,6 @@
 
 .service-card {
   background: var(--background-secondary);
-  padding: 2.5rem;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-md);
   transition: all 0.3s ease;
@@ -38,6 +37,8 @@
   flex-direction: column;
   height: 100%;
   border: 1px solid var(--border);
+  overflow: hidden;
+  padding: 0;
 }
 
 .service-card:hover {
@@ -46,41 +47,46 @@
 }
 
 .service-header {
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
-  padding: 2rem;
+  background: var(--background-site);
+  padding: 0;
   text-align: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
 }
 
-.service-icon {
-  width: 80px;
-  height: 80px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 1rem;
+.service-image-container {
+  width: 100%;
+  aspect-ratio: 1 / 1.4;
+  overflow: hidden;
 }
 
-.service-icon i {
-  font-size: 2rem;
-  color: white;
+.service-flyer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.service-card:hover .service-flyer-img {
+  transform: scale(1.05);
 }
 
 .service-header h3 {
-  color: white;
-  margin-bottom: 1rem;
+  padding: 1.5rem 1rem 0.5rem;
+  color: var(--accent);
+  margin: 0;
 }
 
 .service-price {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
+  padding: 0 1rem 1.5rem;
 }
 
 .service-body {
   padding: 2rem;
+  background: var(--background-secondary);
 }
 
 .service-body p {

@@ -23,7 +23,6 @@ function App() {
       <VideoSection />
       <GallerySection />
       <ServicesSection />
-      <ProgramSection />
       <TestimonialsSection />
       <PricingSection />
       <ContactSection />
