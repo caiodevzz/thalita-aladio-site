@@ -21,21 +21,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Paleta de Cores */
+/* Paleta de Cores baseada na Identidade Visual (Flyer) */
 :root {
-  --primary: #0f2b5b;
-  --primary-dark: #0a1e41;
-  --primary-light: #2a4a86;
-  --secondary: #f4f6fb;
-  --accent: #b8995a;
+  --primary: #1c2841; /* Azul Marinho do Terno */
+  --primary-dark: #111a2b;
+  --primary-light: #2d3d5e;
+  --secondary: #fdfaf5; /* Fundo Bege claríssimo */
+  --accent: #b9975c; /* Dourado do Flyer */
+  --accent-light: #d4bc8d;
+  --background-secondary: #f8f5f0;
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
-  --text-dark: #1e293b;
-  --text-light: #64748b;
-  --text-muted: #94a3b8;
-  --bg-light: #f8fafc;
-  --bg-dark: #0f172a;
+  --text-dark: #1c2841;
+  --text-light: #4a5568;
+  --text-muted: #718096;
+  --bg-light: #ffffff;
+  --bg-dark: #111a2b;
   --border: #e2e8f0;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
