@@ -65,9 +65,8 @@ export const SERVICES = [
     icon: 'fas fa-heart',
     title: 'Atendimento de Casal',
     description: 'Transformem juntos uma vida financeira saudável e alinhada.',
-    price: 'R$ 399,00',
     image: THALITA_PHOTOS.flyers.casal,
-    whatsappMessage: 'Olá Thalita! Gostaria de saber mais sobre o *Atendimento de Casal*. Vi no site que o investimento é de R$ 399,00. Como funciona o agendamento?',
+    whatsappMessage: 'Olá Thalita! Gostaria de saber mais sobre o *Atendimento de Casal*. Como funciona o agendamento?',
     features: [
       'Planejamento financeiro para o casal',
       'Organização e metas compartilhadas',
@@ -80,9 +79,8 @@ export const SERVICES = [
     icon: 'fas fa-brain',
     title: 'Atendimento para Psicólogos',
     description: 'Construa uma vida financeira organizada e sustentável na sua prática clínica.',
-    price: '12x R$ 299,00',
     image: THALITA_PHOTOS.flyers.psicologos,
-    whatsappMessage: 'Oi Thalita! Tenho interesse no *Atendimento para Psicólogos*. Vi os detalhes no site e gostaria de entender melhor como funciona o acompanhamento anual de 12x R$ 299,00.',
+    whatsappMessage: 'Oi Thalita! Tenho interesse no *Atendimento para Psicólogos*. Vi os detalhes no site e gostaria de entender melhor como funciona o acompanhamento anual.',
     popular: true,
     features: [
       'Organização financeira do consultório e da vida pessoal',
@@ -96,9 +94,8 @@ export const SERVICES = [
     icon: 'fas fa-vault',
     title: 'Arquitetura Financeira',
     description: 'Consultoria Individual personalizada.',
-    price: '12x R$ 299',
     image: THALITA_PHOTOS.flyers.individual,
-    whatsappMessage: 'Olá! Gostaria de informações sobre a *Arquitetura Financeira (Consultoria Individual)*. Vi no site o valor de 12x R$ 299 e gostaria de tirar algumas dúvidas.',
+    whatsappMessage: 'Olá! Gostaria de informações sobre a *Arquitetura Financeira (Consultoria Individual)*. Vi no site e gostaria de tirar algumas dúvidas.',
     features: [
       'Planejamento financeiro integrado com objetivos de vida',
       'Estruturação de investimentos',

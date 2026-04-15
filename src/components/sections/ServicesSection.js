@@ -37,7 +37,6 @@ const ServicesSection = () => {
                   <img src={service.image} alt={service.title} className="service-flyer-img" />
                 </div>
                 <h3>{service.title}</h3>
-                <div className="service-price">{service.price}</div>
               </div>
               
               <div className="service-body">
