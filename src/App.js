@@ -6,6 +6,7 @@ import AboutSection from './components/sections/AboutSection';
 import VideoSection from './components/sections/VideoSection';
 import GallerySection from './components/sections/GallerySection';
 import ServicesSection from './components/sections/ServicesSection';
+import ProgramSection from './components/sections/ProgramSection';
 import TestimonialsSection from './components/sections/TestimonialsSection';
 import PricingSection from './components/sections/PricingSection';
 import ContactSection from './components/sections/ContactSection';
@@ -22,6 +23,7 @@ function App() {
       <VideoSection />
       <GallerySection />
       <ServicesSection />
+      <ProgramSection />
       <TestimonialsSection />
       <PricingSection />
       <ContactSection />
