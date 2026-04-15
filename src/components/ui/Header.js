@@ -54,8 +54,6 @@ const Header = () => {
           <a href="#sobre">Sobre</a>
           <a href="#galeria">Galeria</a>
           <a href="#servicos">Serviços</a>
-          <a href="#depoimentos">Depoimentos</a>
-          <a href="#precos">Preços</a>
           <a href="#contato" className="btn-nav">Agendar Consultoria</a>
         </nav>
         
