@@ -51,7 +51,7 @@ const ServicesSection = () => {
                   ))}
                 </ul>
                 <a 
-                  href={getWhatsAppLink(generateWhatsAppMessage(service.title, service.price))}
+                  href={getWhatsAppLink(service.whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-service"
