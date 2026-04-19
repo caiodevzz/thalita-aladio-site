@@ -64,11 +64,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center right;
-  transition: transform 0.4s ease;
-}
-
-.service-card:hover .service-image img {
-  transform: scale(1.03);
+  display: block;
 }
 
 .service-card.image-left .service-image img {

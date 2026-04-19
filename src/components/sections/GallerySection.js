@@ -23,11 +23,10 @@ const GallerySection = () => {
             <motion.div
               key={index}
               className="gallery-item"
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              whileHover={{ scale: 1.05 }}
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.35, delay: Math.min(index * 0.04, 0.4) }}
+              viewport={{ once: true, margin: '0px 0px -40px 0px' }}
             >
               <img src={photo} alt={`Thalita Aládio - Foto ${index + 1}`} />
             </motion.div>

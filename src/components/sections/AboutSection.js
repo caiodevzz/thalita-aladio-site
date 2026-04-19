@@ -10,20 +10,20 @@ const AboutSection = () => {
         <div className="about-content">
           <motion.div
             className="about-image"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            viewport={{ once: true, margin: '0px 0px -60px 0px' }}
           >
             <img src={THALITA_PHOTOS.about} alt="Thalita Aládio" />
           </motion.div>
           
           <motion.div
             className="about-text"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.05 }}
+            viewport={{ once: true, margin: '0px 0px -60px 0px' }}
           >
             <h2>Conheça sua mentora</h2>
             <h3>{THALITA_INFO.name}</h3>

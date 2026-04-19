@@ -10,9 +10,9 @@ const Hero = () => {
         <div className="hero-content">
           <motion.div 
             className="hero-text"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
           >
             <h1>
               Transforme seu consultório através da <span>gestão humanizada</span> para psicólogos
@@ -33,9 +33,9 @@ const Hero = () => {
           
           <motion.div 
             className="hero-image"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.45, delay: 0.2 }}
           >
             <img src={THALITA_PHOTOS.hero} alt="Thalita Aládio - Especialista em Gestão de Consultórios Psicológicos" />
           </motion.div>
