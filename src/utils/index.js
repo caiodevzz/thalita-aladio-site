@@ -6,7 +6,8 @@ import { CONTACT_INFO } from '../constants';
 export const getWhatsAppLink = (message = '') => {
   const baseUrl = CONTACT_INFO.whatsapp;
   if (message) {
-    return `${baseUrl}?text=${encodeURIComponent(message)}`;
+    const separator = baseUrl.includes('?') ? '&' : '?';
+    return `${baseUrl}${separator}text=${encodeURIComponent(message)}`;
   }
   return baseUrl;
 };

@@ -122,7 +122,7 @@ export const TESTIMONIALS = [
 
 // Contato
 export const CONTACT_INFO = {
-  whatsapp: 'https://wa.me/5564999637532',
+  whatsapp: 'https://api.whatsapp.com/message/YBMRDHCQHPTWK1?autoload=1&app_absent=0',
   phone: '(64) 99963-7532',
   email: 'contato@thalitaaladio.com',
   instagram: 'https://www.instagram.com/aladiothalita/',
